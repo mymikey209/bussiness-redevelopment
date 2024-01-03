@@ -6,3 +6,11 @@
     src: url(../assets/JejuGothic-Regular.ttf);
      font-family: JejuGothic;
  }
+
+ @media screen and (max-width: 500px) {
+
+    .invisibleBig {
+        display: none;
+    }
+
+ }
