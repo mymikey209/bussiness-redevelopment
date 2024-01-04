@@ -14,3 +14,21 @@
     }
 
  }
+
+ #carouselExampleSlidesOnly {
+    border-radius: 35px;
+    overflow: hidden;
+    /* border: 1px solid black; */
+  }
+
+  #carouselExampleSlidesOnly img {
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 35px; 
+  }
+
+  .collectionImg{
+    height: 280px;
+    width: 280px;
+    border-radius: 35px;
+  }
