@@ -32,6 +32,13 @@
     width: 280px;
     border-radius: 35px;
   }
+  .collectionImg1{
+    height: 280px;
+    width: 280px;
+    border-radius: 35px;
+    margin-left: 220px;
+  }
+
 
   .vertical-center {
     display: flex;
@@ -67,4 +74,13 @@
 
   .FontTwo{
     font-family: SeoulNamsan;
+  }
+
+  .SpaceTop{
+    padding-top: 20px;
+    font-size: 20px;
+  }
+
+  .Footer{
+    padding-left: 30px;
   }
