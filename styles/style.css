@@ -32,3 +32,25 @@
     width: 280px;
     border-radius: 35px;
   }
+
+  .vertical-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .description {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .centered-button {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .gridPics{
+    margin-bottom: 10px;
+    border: 10px solid white;
+    object-fit: cover;
+}
+
