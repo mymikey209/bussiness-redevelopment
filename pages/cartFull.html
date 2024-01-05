@@ -34,28 +34,28 @@
       </div>
       <div class="col-1">
           <a class="navbar-brand" href="#">
-            <img src="../assets/magnifying-glass.png" alt="Bootstrap" width="30" height="30">
+            <img class="BorderColor" src="../assets/magnifying-glass.png" alt="Bootstrap" width="30" height="30">
           </a>
-          <a class="navbar-brand" href="../pages/empty.html">
-              <img src="../assets/basket.png" alt="Bootstrap" width="30" height="30">
+          <a class="navbar-brand" href="../pages/cartFull.html">
+              <img class="BorderColor1" src="../assets/basket.png" alt="Bootstrap" width="30" height="30">
             </a>
       </div>
       </div>
     </nav>
 
-   <div class="container">
-    <h1>Your Bag</h1>
+   <div class="container-fluid">
+    <h1 class="FontOne" style="padding-left: 50px;" >Your Bag</h1>
    </div>
 
    <div class="container-fluid">
-    <div class="row">
+    <div class="row FontOne">
         <div class="col-4">
-            <img style="height: 300px;" width="300px" src="../assets/IMG_8126.jpg" alt="ImgCart">
+            <img class="gridPics" style="height: 300px;" width="300px" src="../assets/IMG_8126.jpg" alt="ImgCart">
             <br>
-            <p>Shipping</p>
-            <p>Arriving Tuesday</p>
+            <p style="padding-left: 95px;" >Shipping</p>
+            <p style="padding-left: 65px;" >Arrives by Tue, Nov 28</p>
         </div>
-        <div class="col-4">
+        <div class="col-5">
             <br>
             <h3>
                 Satin Bred Jordan 1
@@ -66,7 +66,7 @@
             </h3>
             <br>
             <div class="row">
-           <div class="col-3">
+           <div class="col-4">
             <h3>
                 Size : 10.5
             </h3>
@@ -79,27 +79,33 @@
            <div>
             <br>
             <h3>
-                <button>Trash</button>
+                <a href="../pages/empty.html">
+                    <img src="../assets/trash.png" alt="trashBtn">
+                </a>
             </h3>
            </div>
         </div>
         </div>
-        <div class="col-4">
+        <div class="col-3" style="text-align: center;">
             <h3>
                 Summary
             </h3>
             <br>
-            <h3>Subtotal</h3>
+            <div style="background-color: #D9D9D9;" >
+                <br>
+            <h3>Subtotal: $169.29</h3>
             
-            <h3>Shipping</h3>
+            <h3>Est. Shipping: $14.50</h3>
             
-            <h3>Tax</h3>
+            <h3>Est. Tax: $16.92</h3>
             <br>
-            <h3>Total</h3>
+        </div>
+            <br>
+            <h3>Total: $200.71</h3>
             <br>
             <br>
             <a href="./cartPageShipping.html">
-            <button>Check out</button>
+            <button class="SendBtn1" >Check out</button>
         </a>
         </div>
     </div>
