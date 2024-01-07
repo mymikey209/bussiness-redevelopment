@@ -9,7 +9,7 @@
   </head>
   <body>
 
-    <nav class="navbar">
+    <nav class="navbar d-none d-md-block">
       <div class="container">
       <div class="col-2">
         <a class="navbar-brand" href="../index.html">
@@ -43,11 +43,154 @@
       </div>
     </nav>
 
+    <nav class="navbar navbar-expand-md navbar-light ">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./empty.html">Cart</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
    <div class="container FontOne">
-    <h1 style="text-align: center;" >Your Bag</h1>
+    <h1 style="text-align: center; color: #713FB2; " >Your Bag</h1>
    </div>
 <br>
-   <div class="container">
+
+<div class="container FontOne mobileVer">
+    <h1 style="text-align: center; " >Shipping Info</h1>
+   </div>
+   <br>
+   <div class="container mobileVer1">
+    <div class="row">
+        <div class="form-floating mb-3">
+            <input style="background-color: #D9D9D9; border-radius: 0px;" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Name</label>
+          </div>
+    </div>
+
+        <div class="row">
+            <div class="form-floating mb-3">
+                <input style="background-color: #D9D9D9; border-radius: 0px;" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">adddress</label>
+              </div>
+        </div>
+
+   
+        <div class="row">
+            <div class="form-floating mb-3">
+                <input style="background-color: #D9D9D9; border-radius: 0px;" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email</label>
+              </div>
+     
+    </div>
+
+        <div class="row">
+            <div class="form-floating mb-3">
+                <input style="background-color: #D9D9D9; border-radius: 0px;" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Phone</label>
+              </div>
+        </div>
+
+</div>
+<br>
+<br>
+
+<div class="container FontOne mobileVer">
+    <h1 style="text-align: center; " >Payment Info</h1>
+   </div>
+   <br>
+   <div class="container mobileVer1">
+    <div class="row">
+        <div class="form-floating mb-3">
+            <input style="background-color: #D9D9D9; border-radius: 0px;" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Card Number</label>
+          </div>
+    </div>
+
+        <div class="row">
+            <div class="form-floating mb-3">
+                <input style="background-color: #D9D9D9; border-radius: 0px;" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Exp Date</label>
+              </div>
+        </div>
+
+   
+        <div class="row">
+            <div class="form-floating mb-3">
+                <input style="background-color: #D9D9D9; border-radius: 0px;" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">CRV<Address></Address></label>
+              </div>
+     
+    </div>
+
+        <div class="row">
+            <div class="form-floating mb-3">
+                <input style="background-color: #D9D9D9; border-radius: 0px;" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Zip Code</label>
+              </div>
+        </div>
+
+</div>
+
+<br>
+<div class="container mobileVer">
+    <h1>Review</h1>
+</div>
+<br>
+<div class="container-fluid mobileVer1">
+    <div class="row">
+      <div class="col-6">
+        <img class="collectionImg3"  src="../assets/DSC_0480.JPG" alt="bag">
+      </div>
+      <div class="col-6">
+        <h6>
+          Satin Bred Jordan 1
+        </h6>
+        <h6>
+          Color : Red/Black/White
+      </h6>
+      <h6>
+        Size : 10.5  Quantity : 1
+
+      </h6>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <h6 style="text-align: center;">
+          Shipping
+        </h6>
+        <h6 style="text-align: center;">
+         Arrives by Tue
+      </h6>
+      <h6 style="text-align: center;">
+Nov 28
+      </h6>
+      </div>
+      <div class="col-6"></div>
+    </div>
+   </div>
+
+   <div class="container d-none d-md-block">
     <div class="row">
         <div class="col-6">
            <h3>
@@ -62,7 +205,7 @@
     </div>
    </div>
 
-   <div class="container FontOne">
+   <div class="container FontOne d-none d-md-block">
     <div class="row g-3 align-items-center">
         <div class="col">
             <label for="inputName" class="col-form-label">First & Last Name</label>
@@ -127,10 +270,10 @@
 <br>
 <br>
 <br>
-<div class="container">
+<div class="container d-none d-md-block">
     <div class="row FontOne">
         <div class="col-10" style= " display: flex; justify-content: end;" >
-            <img class="gridPics" style="height: 150px;" width="150px" src="../assets/IMG_8126.jpg" alt="ImgPreview">
+            <img class="gridPics" style="height: 150px;" width="150px" src="../assets/DSC_0481.JPG" alt="ImgPreview">
         </div>
         <div class="col">
             <p>Air Jordan 1 Satin Bred
@@ -168,11 +311,11 @@
     <br>
     <br>
 
-<img class="center" src="../assets/Screenshot (13).png" alt="payments" width="300px" height="50px">
+<img class="center d-none d-md-block" src="../assets/Screenshot (13).png" alt="payments" width="300px" height="50px">
   <br>
   <br>
   <br>
-  <p style="text-align: center;">©2023, Friscostocks Powered by JavaScript - Refund Policy - Privacy Policy - Terms of Service - Shipping Info - Contact Info</p>
+  <p class="d-none d-md-block" style="text-align: center;">©2023, Friscostocks Powered by JavaScript - Refund Policy - Privacy Policy - Terms of Service - Shipping Info - Contact Info</p>
     
 
 
