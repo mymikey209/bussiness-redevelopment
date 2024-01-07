@@ -38,6 +38,17 @@
     border-radius: 35px;
     margin-left: 220px;
   }
+  .collectionImg2{
+    height: 200px;
+    width: 180px;
+    border-radius: 35px;
+  }
+  .collectionImg3{
+    height: 100px;
+    width: 180px;
+    border-radius: 35px;
+  }
+
 
 
   .vertical-center {
@@ -210,6 +221,9 @@
 .mobileVer{
   display: none;
 }
+.mobileVer1{
+  display: none;
+}
 
 @media screen and (min-width: 767px) {
   
@@ -234,6 +248,9 @@
     display: flex;
     justify-content: center;
   }
+.mobileVer1{
+  display: block;
+}
 
   .container.grow,
   .Footer {
