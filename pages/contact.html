@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
   <body>
-    <nav class="navbar">
+    <nav class="navbar d-none d-md-block">
       <div class="container">
       <div class="col-2">
         <a class="navbar-brand" href="../index.html">
@@ -33,16 +33,42 @@
       </div>
       <div class="col-1">
           <a class="navbar-brand" href="#">
-            <img src="../assets/magnifying-glass.png" alt="Bootstrap" width="30" height="30">
+            <img class="BorderColor"  src="../assets/magnifying-glass.png" alt="Bootstrap" width="30" height="30">
           </a>
           <a class="navbar-brand" href="./empty.html">
-              <img src="../assets/basket.png" alt="Bootstrap" width="30" height="30">
+              <img class="BorderColor"  src="../assets/basket.png" alt="Bootstrap" width="30" height="30">
             </a>
       </div>
       </div>
     </nav>
     
- 
+    <nav class="navbar navbar-expand-md navbar-light ">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Home</a>
+                </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./empty.html">Cart</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+     
+    <br>
+
   <br>
     
   <br>
@@ -54,17 +80,17 @@
       <form class="row g-3">
         <div class="col-md-6">
          
-          <input type="email" class="form-control" id="inputEmail4" placeholder="Name" >
+          <input style="background-color: #D9D9D9; border-radius: 0px;" type="email" class="form-control" id="inputEmail4" placeholder="Name" >
         </div>
         <div class="col-md-6">
-          <input type="password" class="form-control" id="inputPassword4" placeholder="Phone" >
+          <input style="background-color: #D9D9D9; border-radius: 0px;" type="password" class="form-control" id="inputPassword4" placeholder="Phone" >
         </div>
         <div class="col-12">
          
-          <input type="text" class="form-control" id="inputAddress" placeholder="Email*">
+          <input style="background-color: #D9D9D9; border-radius: 0px;" type="text" class="form-control" id="inputAddress" placeholder="Email*">
         </div>
         <div class="form-floating">
-          <textarea class="form-control" placeholder="Comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+          <textarea style="background-color: #D9D9D9; border-radius: 0px; height: 200px;" class="form-control" placeholder="Comment here" id="floatingTextarea2" style="height: 100px"></textarea>
           <label for="floatingTextarea2">Comment: </label>
         </div>
         <div>
@@ -80,11 +106,11 @@
   <br>
   <br>
 
-  <img class="center" src="../assets/Screenshot (13).png" alt="payments" width="300px" height="50px">
+  <img class="center d-none d-md-block" src="../assets/Screenshot (13).png" alt="payments" width="300px" height="50px">
   <br>
   <br>
   <br>
-  <p style="text-align: center;">©2023, Friscostocks Powered by JavaScript - Refund Policy - Privacy Policy - Terms of Service - Shipping Info - Contact Info</p>
+  <p class="d-none d-md-block" style="text-align: center;">©2023, Friscostocks Powered by JavaScript - Refund Policy - Privacy Policy - Terms of Service - Shipping Info - Contact Info</p>
     
     
     
